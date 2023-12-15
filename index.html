@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="wrapper">
+        <div class="field">
+          <div class="search">
+            <input
+              type="text"
+              placeholder="Enter City Name"
+              id="locationInput"
+              required
+            />
+            <input type="submit" value="⌕" id="searchButton" />
+          </div>
+          <div class="line"></div>
+        </div>
+        <div class="message">
+          <h3>Search and know weather of desired location!</h3>
+        </div>
+        <div class="detail-box">
+          <h5 class="card-title"></h5>
+          <p class="text-muted"></p>
+          <img class="float-right" id="weather-icon" src="" alt="icon" />
+          <p class="display-1"></p>
+          <span class="text-muted-2">
+        </div>
+
+        <div class="detail">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <p>
+          Created with <span><i class='bx bxs-heart' ></i></span> By <span>Darshil Laloriya</span>
+        </p>
+      </div>
+    <script src="app.js"></script>
+  </body>
+</html>
